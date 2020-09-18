@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Profile</string>
+    <string name="txt_see">See My Profile</string>
+    <string name="txt_diri">My Self</string>
+    <string name="txt_open">welcome to my profile </string>
+    <string name="txt_awal">FullName</string>
+    <string name="txt_name">: Tiyas Aria Pratiwi</string>
+    <string name="txt_nick">Nickname</string>
+    <string name="txt_tys">: Tiyas</string>
+    <string name="txt_tiya">: Tiyas</string>
+    <string name="txt_tgl">Date Of Birth</string>
+    <string name="txt_24">: Surakarta, 24 \nAgustus 2002</string>
+    <string name="txt_cita">Future Goals</string>
+    <string name="txt_ctct">: Lecturer, Hafidzoh</string>
+    <string name="txt_hp">No.Hp</string>
+    <string name="txt_no">: 0813–2975-0536</string>
+    <string name="txt_hb">Hoby</string>
+    <string name="txt_hbb">: Reading Book and Listening Music or other</string>
+    <string name="txt_ftf">Favorite Food</string>
+    <string name="txt_moto">Live Motto</string>
+    <string name="txt_mottto">: Be a Benefactor To Other People</string>
+    <string name="txt_mks">Thank You</string>
+    <string name="_todo">TODO</string>
+    <string name="txt_todo">TODO</string>
+    <string name="txt_poto">ini fotoyz</string>
+</resources>

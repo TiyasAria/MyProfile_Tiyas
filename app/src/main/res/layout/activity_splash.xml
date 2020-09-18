@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp">
+
+        <ImageView
+            android:layout_width="@dimen/_197dp"
+            android:layout_height="@dimen/_213dp"
+            android:layout_marginStart="@dimen/_130dp"
+            android:layout_marginTop="@dimen/_115dp"
+            android:contentDescription="@string/_todo"
+            android:src="@drawable/twibbon" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_136dp"
+            android:layout_height="@dimen/_153dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_170dp"
+            android:layout_marginTop="@dimen/_140dp"
+            android:src="@drawable/tiyas" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/_175dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/ayam_enak"
+        android:text="@string/txt_see" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_100dp"
+        android:src="@drawable/paper_plane"
+        android:layout_marginTop="@dimen/_20dp"
+        android:contentDescription="@string/txt_todo" />
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:fontFamily="@font/sapi_lezat"
+        android:text="@string/txt_open"
+        android:textColor="#E91E63"
+        android:textSize="@dimen/_70sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

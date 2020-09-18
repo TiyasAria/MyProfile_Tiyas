@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backku"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:fontFamily="@font/sapi_lezat"
+        android:text="@string/txt_mks"
+        android:textColor="#E91E63"
+        android:textSize="@dimen/_40sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="134dp"
+        android:layout_height="157dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tiyas2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_diri"
+        android:textColor="#000000"
+        android:textSize="@dimen/_50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ayam_enak"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_awal"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_nick"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_87dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_tiya"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_tgl"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_63dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_24"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_cita"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_65dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_ctct"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_hp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_112"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_no"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_hb"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_115dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_hbb"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_92dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:text="@string/txt_moto"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_77dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/komik"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:text="@string/txt_mottto"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_17sp"
+        />
+
+
+</LinearLayout>
+
+
+
+    </LinearLayout>
