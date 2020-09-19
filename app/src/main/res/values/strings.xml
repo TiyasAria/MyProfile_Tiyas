@@ -23,4 +23,7 @@
     <string name="_todo">TODO</string>
     <string name="txt_todo">TODO</string>
     <string name="txt_poto">ini fotoyz</string>
+    <string name="txt_one">Fullname \nNickname \nDate Of Birth \nFuture Goals \nNo.Hp \nHobby \nLive Motto</string>
+    <string name="txt_two">: Tiyas Aria Pratiwi \n: Tiyas \n: Surakarta,24 Agustus 2002 \n: Lecturer, Hafidzoh \n: 0813-2975-0536 \n: Reading Book and Listening Music \n: Be a Benefactor To Other People</string>
+    <string name="txt_page">this is page</string>
 </resources>

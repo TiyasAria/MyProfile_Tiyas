@@ -23,6 +23,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="134dp"
         android:layout_height="157dp"
+        android:layout_marginTop="@dimen/_50dp"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/tiyas2"
         />
@@ -39,202 +40,35 @@
         />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_awal"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:layout_marginEnd="@dimen/_20dp"
-        android:text="@string/txt_name"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp"
-        />
-
-
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_nick"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_88dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:layout_marginEnd="@dimen/_20dp"
-        android:text="@string/txt_tiya"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp"
-        />
-
-
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_tgl"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_71dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:layout_marginEnd="@dimen/_20dp"
-        android:text="@string/txt_24"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp"
-        />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_cita"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_72dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:layout_marginEnd="@dimen/_20dp"
-        android:text="@string/txt_ctct"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp"
-        />
-
-
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_hp"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_105dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:layout_marginEnd="@dimen/_20dp"
-        android:text="@string/txt_no"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp"
-        />
-
-
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_hb"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10dp"
+            android:fontFamily="@font/komik"
+            android:text="@string/txt_one"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_15sp" />
 
         <TextView
-            android:layout_width="134dp"
+            android:layout_width="@dimen/_200dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_108dp"
             android:layout_marginTop="@dimen/_10dp"
-            android:layout_marginEnd="@dimen/_50dp"
             android:fontFamily="@font/komik"
-            android:text="@string/txt_hbb"
+            android:text="@string/txt_two"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/_12sp" />
-
-
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_92dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:text="@string/txt_moto"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_82dp"
-        android:layout_marginTop="@dimen/_10dp"
-        android:fontFamily="@font/komik"
-        android:layout_marginEnd="@dimen/_20dp"
-        android:text="@string/txt_mottto"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/_12sp"
-        />
-
-
-</LinearLayout>
-
-
-
+            android:textSize="@dimen/_15sp" />
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="@dimen/_205dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:src="@drawable/love"
+        android:contentDescription="@string/txt_page" />
+
+</LinearLayout>
