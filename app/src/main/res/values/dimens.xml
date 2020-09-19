@@ -5,7 +5,6 @@
     <dimen name="_20dp">20dp</dimen>
     <dimen name="_250dp">250dp</dimen>
     <dimen name="_150dp">150dp</dimen>
-    <dimen name="_50dp">50dp</dimen>
     <dimen name="_120dp">120dp</dimen>
     <dimen name="_110">110dp</dimen>
     <dimen name="_200dp">200dp</dimen>
@@ -58,4 +57,11 @@
     <dimen name="_75dp">75sp</dimen>
     <dimen name="_15dp">15dp</dimen>
     <dimen name="_70sp">70sp</dimen>
+    <dimen name="_88dp">88dp</dimen>
+    <dimen name="_71dp">71dp</dimen>
+    <dimen name="_72dp">72dp</dimen>
+    <dimen name="_105dp">105dp</dimen>
+    <dimen name="_108dp">108dp</dimen>
+    <dimen name="_82dp">82dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
 </resources>
